@@ -54,3 +54,19 @@ node serve-local.mjs
 ~~~
 
 開啟 http://127.0.0.1:4173 。motion-library-portable.zip 內含 dist、啟動程式及來源說明，解壓後也能用同一命令啟動。需要本機 Node.js。若連接埠已使用，可先設定 $env:PORT=4174。
+
+## Windows 雙擊啟動
+
+雙擊專案根目錄的 **Start-Motion-Library.cmd**。它會執行旁邊的 PowerShell 腳本，自動啟動本地網站並開啟瀏覽器。使用期間保留啟動視窗，按 Enter 即可停止伺服器。預設連接埠為 4173，若被佔用會自動選用下一個可用連接埠。
+
+第一次使用若缺少 dist，會安裝所需套件並建置，因此需要網路；已有 dist 時不需網路或 npm 套件。電腦須先安裝 Node.js 22.12+ 或 24。
+
+也可以在 PowerShell 執行：
+
+~~~powershell
+.\Start-Motion-Library.ps1
+# 指定連接埠，或不自動開啟瀏覽器：
+.\Start-Motion-Library.ps1 -Port 4180 -NoBrowser
+~~~
+
+CMD 啟動檔只對本次 PowerShell 程序設定腳本執行選項，不修改系統的執行原則。可攜備份請一併包含兩個 Start-Motion-Library 啟動檔。
