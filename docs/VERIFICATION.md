@@ -1,22 +1,26 @@
-# Independent acceptance verification
+# 獨立驗收報告
 
-Run: `node tests/acceptance.mjs` with the production preview server at http://127.0.0.1:4173.
+執行方式：先啟動本地網站，再執行 `node tests/acceptance.mjs`。驗證網址：http://127.0.0.1:4173。
 
-Browser: Microsoft Edge via Playwright. Tested at 2026-11-03T03:55:35.407Z.
+驗證工具：Microsoft Edge ／ Playwright。驗證時間：2026/11/03 11:55:35（台北時間，UTC+8）。
 
-- PASS: Catalog initial count, pagination and visible source attribution
-- PASS: English name search and independent prompt/style indexing
-- PASS: Cross filters match independent catalog calculation
-- PASS: Favorites persist on reload
-- PASS: Native modal, source link, prompt, replay and Escape
-- PASS: Custom preview text reaches runtime
-- PASS: Prompt copy includes original prompt and source
-- PASS: JSON export contains complete dataset
-- PASS: Page switching and latest ordering
-- PASS: Mobile layout fits viewport and dialog remains operable
-- PASS: No automatic external HTTP requests
-- PASS: No browser page errors during acceptance scenarios
+驗收結果：共 12 項，12 項通過，0 項未通過。
 
-External HTTP requests were blocked and recorded during all scenarios. Screenshot: preview.png. Machine-readable results: acceptance-results.json.
+- 通過：收藏總數、分頁與顯眼的來源標示
+- 通過：英文名稱、提示詞與風格關鍵字搜尋
+- 通過：交叉篩選結果符合獨立計算的資料清單
+- 通過：重新整理頁面後保留收藏
+- 通過：詳情視窗、來源連結、提示詞、重播與 Escape 關閉
+- 通過：自訂預覽文字正確傳入演示
+- 通過：複製內容包含完整原始提示詞與來源
+- 通過：匯出的 JSON 包含完整資料集
+- 通過：分頁切換與最新收錄排序
+- 通過：手機版無水平溢出，詳情視窗可正常操作
+- 通過：沒有自動發出的外部 HTTP 請求
+- 通過：驗收過程未出現瀏覽器頁面錯誤
 
-This verifies application workflows, not pixel-for-pixel fidelity or all 331 animations. The coordinator runs the separate exhaustive renderer smoke check.
+所有驗收情境皆會攔截並記錄外部 HTTP 請求；本次記錄到 0 筆外部請求、0 筆頁面錯誤。
+
+畫面截圖：[preview.png](preview.png)。結構化結果：[acceptance-results.json](acceptance-results.json)。
+
+驗證範圍：應用程式操作流程。此報告不代表已確認與原站逐像素一致，也未涵蓋全部 331 個動畫的所有互動。逐項演示初始化與短時間錯誤檢查結果另見 [demo-verification.json](demo-verification.json)。

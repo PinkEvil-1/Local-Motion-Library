@@ -4,6 +4,10 @@ Vue 3 + TypeScript 的個人本地學習保存版本，保存 **331 種效果**�
 
 **資料、名稱、描述、提示詞與演示來源：Hannah（UI/UX Designer）整理的 [Motion Library](https://kittenjam-motion-library.vercel.app/)。[作者作品集](https://hannahchao-portfolio.vercel.app/)。本專案不是原作者官方版本。**
 
+## 網頁預覽
+
+![Motion Library 網頁截圖](docs/screenshot.png)
+
 ## 啟動
 
 需要 Node.js 22.12+ 或 24。在專案目錄執行：

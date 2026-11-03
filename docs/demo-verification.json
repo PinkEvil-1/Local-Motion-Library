@@ -4,7 +4,7 @@
   "passed": 331,
   "failed": [],
   "externalRequests": [],
-  "note": "Every effect initialized in isolated iframe and observed for 700ms after status; this is not a pixel-equivalence or exhaustive interaction test.",
+  "note": "每個效果皆在獨立 iframe 中初始化，回報狀態後再觀察 700 毫秒；此檢查不代表與原站逐像素一致，也不涵蓋所有互動。",
   "results": [
     {
       "id": 1,

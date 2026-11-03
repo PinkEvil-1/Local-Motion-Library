@@ -4,51 +4,51 @@
   "browser": "Microsoft Edge / Playwright",
   "results": [
     {
-      "name": "Catalog initial count, pagination and visible source attribution",
+      "name": "收藏總數、分頁與顯眼的來源標示",
       "pass": true
     },
     {
-      "name": "English name search and independent prompt/style indexing",
+      "name": "英文名稱、提示詞與風格關鍵字搜尋",
       "pass": true
     },
     {
-      "name": "Cross filters match independent catalog calculation",
+      "name": "交叉篩選結果符合獨立計算的資料清單",
       "pass": true
     },
     {
-      "name": "Favorites persist on reload",
+      "name": "重新整理頁面後保留收藏",
       "pass": true
     },
     {
-      "name": "Native modal, source link, prompt, replay and Escape",
+      "name": "詳情視窗、來源連結、提示詞、重播與 Escape 關閉",
       "pass": true
     },
     {
-      "name": "Custom preview text reaches runtime",
+      "name": "自訂預覽文字正確傳入演示",
       "pass": true
     },
     {
-      "name": "Prompt copy includes original prompt and source",
+      "name": "複製內容包含完整原始提示詞與來源",
       "pass": true
     },
     {
-      "name": "JSON export contains complete dataset",
+      "name": "匯出的 JSON 包含完整資料集",
       "pass": true
     },
     {
-      "name": "Page switching and latest ordering",
+      "name": "分頁切換與最新收錄排序",
       "pass": true
     },
     {
-      "name": "Mobile layout fits viewport and dialog remains operable",
+      "name": "手機版無水平溢出，詳情視窗可正常操作",
       "pass": true
     },
     {
-      "name": "No automatic external HTTP requests",
+      "name": "沒有自動發出的外部 HTTP 請求",
       "pass": true
     },
     {
-      "name": "No browser page errors during acceptance scenarios",
+      "name": "驗收過程未出現瀏覽器頁面錯誤",
       "pass": true
     }
   ],
