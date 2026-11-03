@@ -1,8 +1,8 @@
 # 獨立驗收報告
 
-執行方式：先啟動本地網站，再執行 `node tests/acceptance.mjs`。驗證網址：http://127.0.0.1:4173。
+執行方式：先啟動本地網站，再執行 `node tests/acceptance.mjs`。驗證網址：http://127.0.0.1:4186。
 
-驗證工具：Microsoft Edge ／ Playwright。驗證時間：2026/11/03 11:55:35（台北時間，UTC+8）。
+驗證工具：Microsoft Edge ／ Playwright。驗證時間：2026/11/03 12:51:45（台北時間，UTC+8）。
 
 驗收結果：共 12 項，12 項通過，0 項未通過。
 

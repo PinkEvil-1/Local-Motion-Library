@@ -1,0 +1,115 @@
+{
+  "testedAt": "2026-11-03T04:52:53.811Z",
+  "base": "http://127.0.0.1:4186",
+  "geometry": [
+    {
+      "pressed": "false",
+      "dx": 0,
+      "dy": 0,
+      "padding": "0px",
+      "width": 32,
+      "height": 32,
+      "svgFill": "none",
+      "color": "rgb(239, 245, 231)"
+    },
+    {
+      "pressed": "true",
+      "dx": 0,
+      "dy": 0,
+      "padding": "0px",
+      "width": 32,
+      "height": 32,
+      "svgFill": "rgb(200, 240, 60)",
+      "color": "rgb(200, 240, 60)"
+    }
+  ],
+  "contrast": [
+    {
+      "selector": ".ml-item-desc",
+      "color": "rgb(210, 220, 200)",
+      "background": "rgb(23, 26, 21)",
+      "fontSize": "12px",
+      "ratio": 12.394485136394621
+    },
+    {
+      "selector": ".ml-tags button",
+      "color": "rgb(237, 245, 228)",
+      "background": "rgb(41, 52, 33)",
+      "fontSize": "11px",
+      "ratio": 11.68450649187395
+    }
+  ],
+  "mobileGroups": [
+    {
+      "count": 10,
+      "allChoicesVisible": true,
+      "labels": [
+        "全部效果 331",
+        "文字",
+        "按鈕",
+        "表單・控制項",
+        "卡片・群組",
+        "圖片・媒體",
+        "圖形・SVG",
+        "背景・氛圍",
+        "版面・頁面",
+        "游標"
+      ]
+    },
+    {
+      "count": 8,
+      "allChoicesVisible": true,
+      "labels": [
+        "全部時機",
+        "進場",
+        "退場",
+        "切換",
+        "循環待機",
+        "懸停・點擊",
+        "捲動觸發",
+        "拖曳手勢"
+      ]
+    },
+    {
+      "count": 10,
+      "allChoicesVisible": true,
+      "labels": [
+        "全部情境",
+        "標題・Hero",
+        "強調重點",
+        "數字資訊",
+        "背景裝飾",
+        "轉場切換",
+        "Logo・品牌",
+        "介面互動",
+        "捲動效果",
+        "App 介面"
+      ]
+    },
+    {
+      "count": 4,
+      "allChoicesVisible": true,
+      "labels": [
+        "全部技術",
+        "CSS",
+        "Canvas",
+        "GSAP"
+      ]
+    }
+  ],
+  "checks": [
+    "No select elements; all three groups toggle and clear correctly",
+    "390px mobile: all categories/timing/use/tech buttons wrap within viewport, no horizontal overflow",
+    "Screenshot captured; user screenshot.png untouched"
+  ],
+  "tag": {
+    "x": 327,
+    "y": 221.5,
+    "width": 75,
+    "height": 26.5,
+    "innerHeight": 258,
+    "top": "221.5px",
+    "bottom": "10px",
+    "overlapsHeart": false
+  }
+}

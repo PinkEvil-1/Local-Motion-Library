@@ -1,6 +1,6 @@
 {
-  "testedAt": "2026-11-03T03:55:35.407Z",
-  "base": "http://127.0.0.1:4173",
+  "testedAt": "2026-11-03T04:51:45.454Z",
+  "base": "http://127.0.0.1:4186",
   "browser": "Microsoft Edge / Playwright",
   "results": [
     {

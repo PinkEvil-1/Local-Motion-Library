@@ -161,20 +161,37 @@ function turnPage(value: number) {
           <button type="button" class="ml-chip" :class="{ 'ml-chip-selected': !component }" :aria-pressed="!component" @click="component = ''">全部效果 <span>{{ catalog.items.length }}</span></button>
           <button v-for="[key, label, color] in catalog.comps" :key="key" type="button" class="ml-chip" :class="{ 'ml-chip-selected': component === key }" :aria-pressed="component === key" @click="component = component === key ? '' : key"><i :style="{ background: color }"></i>{{ label }}</button>
         </div>
-        <div class="ml-secondary-filters">
-          <label>時機<select v-model="timing" aria-label="依時機篩選"><option value="">全部時機</option><option v-for="[key, label] in catalog.whens" :key="key" :value="key">{{ label }}</option></select></label>
-          <label>情境<select v-model="usage" aria-label="依情境篩選"><option value="">全部情境</option><option v-for="(label, key) in catalog.uses" :key="key" :value="key">{{ label }}</option></select></label>
-          <label>技術<select v-model="technology" aria-label="依技術篩選"><option value="">全部技術</option><option v-for="tech in technologies" :key="tech" :value="tech">{{ tech }}</option></select></label>
+        <div class="ml-filter-rows">
+          <div class="ml-filter-row" role="group" aria-label="依時機篩選">
+            <span class="ml-filter-label">時機</span><div class="ml-filter-options">
+              <button type="button" class="ml-chip" :class="{ 'ml-chip-selected': !timing }" :aria-pressed="!timing" @click="timing = ''">全部時機</button>
+              <button v-for="[key, label] in catalog.whens" :key="key" type="button" class="ml-chip" :class="{ 'ml-chip-selected': timing === key }" :aria-pressed="timing === key" @click="timing = timing === key ? '' : key">{{ label }}</button>
+            </div>
+          </div>
+          <div class="ml-filter-row" role="group" aria-label="依情境篩選">
+            <span class="ml-filter-label">情境</span><div class="ml-filter-options">
+              <button type="button" class="ml-chip" :class="{ 'ml-chip-selected': !usage }" :aria-pressed="!usage" @click="usage = ''">全部情境</button>
+              <button v-for="(label, key) in catalog.uses" :key="key" type="button" class="ml-chip" :class="{ 'ml-chip-selected': usage === key }" :aria-pressed="usage === key" @click="usage = usage === key ? '' : key">{{ label }}</button>
+            </div>
+          </div>
+          <div class="ml-filter-row" role="group" aria-label="依技術篩選">
+            <span class="ml-filter-label">技術</span><div class="ml-filter-options">
+              <button type="button" class="ml-chip" :class="{ 'ml-chip-selected': !technology }" :aria-pressed="!technology" @click="technology = ''">全部技術</button>
+              <button v-for="tech in technologies" :key="tech" type="button" class="ml-chip" :class="{ 'ml-chip-selected': technology === tech }" :aria-pressed="technology === tech" @click="technology = technology === tech ? '' : tech">{{ tech }}</button>
+            </div>
+          </div>
+        </div>
+        <div class="ml-filter-actions">
           <button v-if="hasFilters" class="ml-clear" type="button" @click="reset">清除篩選 ×</button>
           <button class="ml-play-toggle" type="button" :aria-pressed="!playing" @click="playing = !playing">{{ playing ? 'Ⅱ 暫停預覽' : '▷ 播放預覽' }}</button>
         </div>
       </section>
 
       <section id="ml-results" class="ml-results" aria-labelledby="ml-results-heading">
-        <div class="ml-results-bar"><div><h2 id="ml-results-heading">{{ favoritesOnly ? '我的收藏' : component ? compLabel(component) : '探索動態' }}</h2><span aria-live="polite">{{ filtered.length }} 個效果</span></div><label class="ml-sort">排序<select v-model="sort" aria-label="排序方式"><option value="group">依元件分類</option><option value="latest">最新收錄</option></select></label></div>
+        <div class="ml-results-bar"><div><h2 id="ml-results-heading">{{ favoritesOnly ? '我的收藏' : component ? compLabel(component) : '探索動態' }}</h2><span aria-live="polite">{{ filtered.length }} 個效果</span></div><div class="ml-sort" role="group" aria-label="排序方式"><span>排序</span><button type="button" class="ml-chip" :class="{ 'ml-chip-selected': sort === 'group' }" :aria-pressed="sort === 'group'" @click="sort = 'group'">依元件分類</button><button type="button" class="ml-chip" :class="{ 'ml-chip-selected': sort === 'latest' }" :aria-pressed="sort === 'latest'" @click="sort = 'latest'">最新收錄</button></div></div>
         <div v-if="visible.length" class="ml-grid">
           <article v-for="item in visible" :key="item.id" class="ml-card" :style="{ '--ml-accent': accent(item.comp) }">
-            <div class="ml-card-preview"><MotionPreview :item="item" :text="customText" :playing="playing && !selected" /><span class="ml-tech-badge">{{ item.tech }}</span><button class="ml-favorite" type="button" :class="{ 'ml-favorited': favorites.includes(item.id) }" :aria-label="`${favorites.includes(item.id) ? '取消收藏' : '收藏'} ${item.zh}`" :aria-pressed="favorites.includes(item.id)" @click="toggleFavorite(item.id)">{{ favorites.includes(item.id) ? '♥' : '♡' }}</button></div>
+            <div class="ml-card-preview"><MotionPreview :item="item" :text="customText" :playing="playing && !selected" /><span class="ml-tech-badge">{{ item.tech }}</span><button class="ml-favorite" type="button" :class="{ 'ml-favorited': favorites.includes(item.id) }" :aria-label="`${favorites.includes(item.id) ? '取消收藏' : '收藏'} ${item.zh}`" :aria-pressed="favorites.includes(item.id)" @click="toggleFavorite(item.id)"><svg class="ml-heart-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 20.5 3.7 12.6a5.5 5.5 0 0 1 7.8-7.8l.5.5.5-.5a5.5 5.5 0 0 1 7.8 7.8Z" /></svg></button></div>
             <div class="ml-card-body"><div class="ml-card-title-row"><span class="ml-item-number">{{ String(item.id).padStart(3, '0') }}</span><button class="ml-item-title" type="button" @click="openDetail(item)">{{ item.zh }} <span aria-hidden="true">↗</span></button></div><p class="ml-item-english">{{ item.en }}</p><p class="ml-item-desc">{{ item.desc }}</p><div class="ml-tags"><button v-for="when in item.when" :key="when" type="button" @click="timing = when">{{ whenLabel(when) }}</button><button v-for="use in item.uses" :key="use" type="button" @click="usage = use">{{ catalog.uses[use] || use }}</button></div><div class="ml-card-actions"><button type="button" class="ml-prompt-button" @click="copyPrompt(item)"><span aria-hidden="true">▧</span> 複製 AI 提示詞</button><button type="button" class="ml-detail-button" :aria-label="`查看 ${item.zh} 詳情`" @click="openDetail(item)">試玩 <span aria-hidden="true">→</span></button></div></div>
           </article>
         </div>
