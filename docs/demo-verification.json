@@ -1,0 +1,2327 @@
+{
+  "checkedAt": "2026-11-03T03:55:10.139Z",
+  "count": 331,
+  "passed": 331,
+  "failed": [],
+  "externalRequests": [],
+  "note": "Every effect initialized in isolated iframe and observed for 700ms after status; this is not a pixel-equivalence or exhaustive interaction test.",
+  "results": [
+    {
+      "id": 1,
+      "name": "閃電砸落",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 2,
+      "name": "雷射切斷",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 3,
+      "name": "硬幣翻轉",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 4,
+      "name": "爆炸四散",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 5,
+      "name": "粒子消散",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 6,
+      "name": "心跳放大",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 7,
+      "name": "文字萬花筒",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 8,
+      "name": "倒數砸落",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 9,
+      "name": "波浪文字",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 10,
+      "name": "定格晃動",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 11,
+      "name": "文字雨",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 12,
+      "name": "放大鏡",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 13,
+      "name": "亂碼解讀",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 14,
+      "name": "骨牌倒下",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 15,
+      "name": "漸層流動",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 16,
+      "name": "圓環文字",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 17,
+      "name": "水面倒影",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 18,
+      "name": "逐字彈跳",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 19,
+      "name": "文字旗幟",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 20,
+      "name": "重力反轉",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 21,
+      "name": "磁鐵吸附",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 22,
+      "name": "脈動格子",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 23,
+      "name": "字重變粗",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 24,
+      "name": "文字扇",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 25,
+      "name": "卡拉OK小球",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 26,
+      "name": "鐘擺搖晃",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 27,
+      "name": "像素溶解",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 28,
+      "name": "圓環換字",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 29,
+      "name": "殘影疾走",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 30,
+      "name": "棋盤翻轉",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 31,
+      "name": "∞ 軌道",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 32,
+      "name": "洗牌重排",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 33,
+      "name": "文字漩渦",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 34,
+      "name": "顫抖穩定",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 35,
+      "name": "彈性拉伸",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 36,
+      "name": "墨水暈開",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 37,
+      "name": "文字聚集",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 38,
+      "name": "字體樣本",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 39,
+      "name": "崩落",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 40,
+      "name": "漂浮",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 41,
+      "name": "文字爆開",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 42,
+      "name": "逐字敲擊",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 43,
+      "name": "印章",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 44,
+      "name": "衝擊放大",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 45,
+      "name": "動態堆疊",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 46,
+      "name": "穿越放大",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 47,
+      "name": "擠壓彈跳",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 48,
+      "name": "巨字滑過",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 49,
+      "name": "直書逆走",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 50,
+      "name": "斜線帶",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 51,
+      "name": "緞帶",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 52,
+      "name": "跑馬燈",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 53,
+      "name": "直書三層",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 54,
+      "name": "封鎖膠帶",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 55,
+      "name": "文字隧道",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 56,
+      "name": "文字走廊",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 57,
+      "name": "圓柱",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 58,
+      "name": "圓環隧道",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 59,
+      "name": "軌道",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 60,
+      "name": "方塊",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 61,
+      "name": "立體字",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 62,
+      "name": "翻牌",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 63,
+      "name": "翻卡",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 64,
+      "name": "打字機",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 65,
+      "name": "拉霸",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 66,
+      "name": "計數器",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 67,
+      "name": "標題切換",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 68,
+      "name": "LED 看板",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 69,
+      "name": "空心字",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 70,
+      "name": "故障切片",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 71,
+      "name": "圖案遮罩",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 72,
+      "name": "長陰影",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 73,
+      "name": "液體填滿",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 74,
+      "name": "螢光筆",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 75,
+      "name": "斜線反轉",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 76,
+      "name": "逐字升起",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 77,
+      "name": "亂碼揭示",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 78,
+      "name": "打字換句",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 79,
+      "name": "彈性落下",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 80,
+      "name": "3D 翻字",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 81,
+      "name": "隨機散聚",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 82,
+      "name": "格狀擴散",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 83,
+      "name": "遮罩換詞",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 84,
+      "name": "數字累加",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 85,
+      "name": "磁力文字",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 86,
+      "name": "逐行揭示",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 87,
+      "name": "壓扁彈跳",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 88,
+      "name": "手繪圈重點",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 89,
+      "name": "形狀變形",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 90,
+      "name": "路徑飛行",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 91,
+      "name": "版面重排",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 92,
+      "name": "捲動揭示",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 93,
+      "name": "橫向捲動",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 94,
+      "name": "視差圖層",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 95,
+      "name": "磁吸按鈕",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 96,
+      "name": "游標跟隨",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 97,
+      "name": "拖曳甩動",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 98,
+      "name": "發牌展開",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 99,
+      "name": "彩紙爆發",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 100,
+      "name": "滾輪加速跑馬燈",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 101,
+      "name": "捲動導覽點",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 102,
+      "name": "文字翻滾按鈕",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 103,
+      "name": "游標擴散填滿按鈕",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 104,
+      "name": "卡片依序浮現",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 105,
+      "name": "3D 傾斜視差圖片",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 106,
+      "name": "流動光暈漸層",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 107,
+      "name": "聚光網格",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 108,
+      "name": "粒子連線",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 109,
+      "name": "光澤掃過按鈕",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 110,
+      "name": "旋轉光邊按鈕",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 111,
+      "name": "愛心按讚爆開",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 112,
+      "name": "卡片浮起",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 113,
+      "name": "光暈邊框卡片",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 114,
+      "name": "骨架載入",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 115,
+      "name": "圖片遮罩揭示",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 116,
+      "name": "前後對比滑桿",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 117,
+      "name": "導覽列捲動縮小",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 118,
+      "name": "通知堆疊",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 119,
+      "name": "懸停放大游標",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 120,
+      "name": "清單懸停預覽圖",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 121,
+      "name": "游標拖尾軌跡",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 122,
+      "name": "點擊漣漪",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 123,
+      "name": "旋轉文字環游標",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 124,
+      "name": "手電筒探照",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 125,
+      "name": "柔和上浮",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 126,
+      "name": "逐行淡入",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 127,
+      "name": "時間軸延伸",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 128,
+      "name": "Z 字閱讀動線",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 129,
+      "name": "步驟依序連接",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 130,
+      "name": "行動按鈕提示",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 131,
+      "name": "柔邊遮罩揭示",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 132,
+      "name": "左右交錯淡入",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 133,
+      "name": "上傳 SVG 描繪",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 134,
+      "name": "手寫簽名",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 135,
+      "name": "線條插畫逐筆描繪",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 136,
+      "name": "圖示描邊 hover",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 137,
+      "name": "流程連線流動",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 138,
+      "name": "波浪分隔線",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 139,
+      "name": "圓環進度",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 140,
+      "name": "打勾完成",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 141,
+      "name": "開關切換",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 142,
+      "name": "下拉重新整理",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 143,
+      "name": "底部抽屜",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 144,
+      "name": "底部導覽列切換",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 145,
+      "name": "滑動刪除",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 146,
+      "name": "按鈕載入成功",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 147,
+      "name": "數量步進器",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 148,
+      "name": "輸入框浮動標籤",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 149,
+      "name": "星星評分",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 150,
+      "name": "啟動頁轉場",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 151,
+      "name": "錯誤震動提示",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 152,
+      "name": "捲動逐字點亮",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 153,
+      "name": "捲動放大全幅圖片",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 154,
+      "name": "黏著堆疊卡片",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 155,
+      "name": "數據捲到才計數",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 156,
+      "name": "往下捲隱藏導覽列",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 157,
+      "name": "捲動繪製路徑",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 158,
+      "name": "圖框內視差",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 159,
+      "name": "捲動橫移大字",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 160,
+      "name": "章節主題切換",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 161,
+      "name": "圓形擴張轉場",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 162,
+      "name": "連結底線滑入",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 163,
+      "name": "空心字填滿",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 164,
+      "name": "卡片 3D 翻面",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 165,
+      "name": "圖片圓形展開",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 166,
+      "name": "Dock 放大選單",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 167,
+      "name": "選單滑塊跟隨",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 168,
+      "name": "展開式圖片面板",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 169,
+      "name": "提示框彈出",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 170,
+      "name": "逐字跳動",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 171,
+      "name": "邊框描繪按鈕",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 172,
+      "name": "星空穿越",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 173,
+      "name": "流場線條",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 174,
+      "name": "飄落花瓣",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 175,
+      "name": "數字雨",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 176,
+      "name": "融合球",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 177,
+      "name": "文字粒子化",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 178,
+      "name": "磁力點陣",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 179,
+      "name": "水波漣漪",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 180,
+      "name": "刮刮樂揭示",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 181,
+      "name": "煙火",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 182,
+      "name": "呼吸",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 183,
+      "name": "漂移",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 184,
+      "name": "平移",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 185,
+      "name": "翻滾",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 186,
+      "name": "霓虹閃爍",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 187,
+      "name": "剪貼簿",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 188,
+      "name": "合併",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 189,
+      "name": "展開",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 190,
+      "name": "滑行",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 191,
+      "name": "緩慢推鏡",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 192,
+      "name": "Logo 組合登場",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 193,
+      "name": "音訊波形",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 194,
+      "name": "漸層光流線條",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 195,
+      "name": "液體填充圖示",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 196,
+      "name": "雷達掃描",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 197,
+      "name": "折線圖繪製",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 198,
+      "name": "長條圖成長",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 199,
+      "name": "圓餅圖分段",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 200,
+      "name": "幾何載入動畫",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 201,
+      "name": "SVG 濾鏡水波扭曲",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 202,
+      "name": "頁面轉場簾幕",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 203,
+      "name": "漢堡選單展開",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 204,
+      "name": "側邊抽屜推移",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 205,
+      "name": "彈出視窗",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 206,
+      "name": "手風琴問答",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 207,
+      "name": "分頁標籤切換",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 208,
+      "name": "作品篩選重排",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 209,
+      "name": "Bento 格局展開",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 210,
+      "name": "左右分割捲動",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 211,
+      "name": "回到頂部進度環",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 212,
+      "name": "焦點卡片輪播",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 213,
+      "name": "左右滑卡",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 214,
+      "name": "疊卡散開",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 215,
+      "name": "價格方案切換",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 216,
+      "name": "卡片展開詳情",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 217,
+      "name": "無限捲動卡片牆",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 218,
+      "name": "評論輪播",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 219,
+      "name": "瀑布流依序落下",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 220,
+      "name": "聚焦淡化其他",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 221,
+      "name": "加入購物車飛入",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 222,
+      "name": "顆粒漸層",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 223,
+      "name": "復古透視網格",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 224,
+      "name": "散景光點",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 225,
+      "name": "同心圓擴散",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 226,
+      "name": "旋轉光芒",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 227,
+      "name": "閃爍星空",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 228,
+      "name": "景深視差圖層",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 229,
+      "name": "起伏線條",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 230,
+      "name": "漂浮幾何",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 231,
+      "name": "立體按壓按鈕",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 232,
+      "name": "果凍彈跳按鈕",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 233,
+      "name": "按鈕漣漪回饋",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 234,
+      "name": "滑動確認",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 235,
+      "name": "長按確認",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 236,
+      "name": "箭頭接力按鈕",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 237,
+      "name": "霓虹呼吸按鈕",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 238,
+      "name": "複製成功回饋",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 239,
+      "name": "展開文字按鈕",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 240,
+      "name": "紙飛機送出",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 241,
+      "name": "勾選框打勾",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 242,
+      "name": "分段控制器",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 243,
+      "name": "密碼強度條",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 244,
+      "name": "滑桿數值氣泡",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 245,
+      "name": "驗證碼輸入",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 246,
+      "name": "展開搜尋框",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 247,
+      "name": "下拉選單展開",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 248,
+      "name": "標籤輸入",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 249,
+      "name": "水滴單選",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 250,
+      "name": "拖放上傳",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 251,
+      "name": "反色混合游標",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 252,
+      "name": "黏性游標",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 253,
+      "name": "速度拉伸游標",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 254,
+      "name": "情境標籤游標",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 255,
+      "name": "十字準星座標",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 256,
+      "name": "眼睛跟隨",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 257,
+      "name": "放大鏡游標",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 258,
+      "name": "黏液拖尾",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 259,
+      "name": "點擊噴出小物",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 260,
+      "name": "框內微放大",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 261,
+      "name": "滑過放大檢視",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 262,
+      "name": "低飽和喚醒",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 263,
+      "name": "商品圖切換",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 264,
+      "name": "滑過預覽影片",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 265,
+      "name": "點圖放大燈箱",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 266,
+      "name": "縮圖列相簿",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 267,
+      "name": "切片轉場",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 268,
+      "name": "拍立得洗牌",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 269,
+      "name": "故障錯位圖片",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 270,
+      "name": "捲動翻轉卡片",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 271,
+      "name": "捲動旋轉立方體",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 272,
+      "name": "穿越大字轉場",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 273,
+      "name": "捲動速度傾斜",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 274,
+      "name": "散落文字聚合",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 275,
+      "name": "捲動形狀變形",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 276,
+      "name": "捲動扇形展開",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 277,
+      "name": "模糊對焦",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 278,
+      "name": "沿曲線跑的文字",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 279,
+      "name": "對開門轉場",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 280,
+      "name": "上下切開文字",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 281,
+      "name": "字距展開",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 282,
+      "name": "清單列滑入填滿",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 283,
+      "name": "圖示微動畫",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 284,
+      "name": "資訊面板滑上",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 285,
+      "name": "社群圖示填滿",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 286,
+      "name": "螢光筆劃記",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 287,
+      "name": "全息閃卡",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 288,
+      "name": "連結預覽卡",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 289,
+      "name": "表格十字高亮",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 290,
+      "name": "手寫描繪",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 291,
+      "name": "字重波浪",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 292,
+      "name": "光源投影字",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 293,
+      "name": "圖片填字",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 294,
+      "name": "逐字模糊浮現",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 295,
+      "name": "劃掉改寫",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 296,
+      "name": "聊天訊息出現",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 297,
+      "name": "殘影堆疊",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 298,
+      "name": "多語問候切換",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 299,
+      "name": "拖曳排序清單",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 300,
+      "name": "多選卡片",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 301,
+      "name": "邊框聚光網格",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 302,
+      "name": "3D 環形輪播",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 303,
+      "name": "翻牌配對遊戲",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 304,
+      "name": "數據儀表卡片",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 305,
+      "name": "翻頁書",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 306,
+      "name": "照片堆展開",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 307,
+      "name": "對折邀請卡",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 308,
+      "name": "頂部載入進度條",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 309,
+      "name": "步驟進度條",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 310,
+      "name": "大型下拉選單",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 311,
+      "name": "推入換頁",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 312,
+      "name": "空狀態插畫",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 313,
+      "name": "Cookie 同意橫幅",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 314,
+      "name": "浮動按鈕展開選單",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 315,
+      "name": "無限捲動載入",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 316,
+      "name": "側欄收合",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 317,
+      "name": "指令面板",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 318,
+      "name": "地圖路線導航",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 319,
+      "name": "即時時鐘",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 320,
+      "name": "天氣圖示動畫",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 321,
+      "name": "選取框螞蟻線",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 322,
+      "name": "有機流動色塊",
+      "tech": "CSS",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 323,
+      "name": "成就徽章解鎖",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 324,
+      "name": "心電圖線條",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 325,
+      "name": "樹枝生長",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 326,
+      "name": "齒輪連動",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 327,
+      "name": "指紋掃描解鎖",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 328,
+      "name": "重力標籤堆",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 329,
+      "name": "掛繩識別證",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 330,
+      "name": "撕貼紙",
+      "tech": "GSAP",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "id": 331,
+      "name": "揉紙攤開",
+      "tech": "Canvas",
+      "ok": true,
+      "error": ""
+    }
+  ]
+}

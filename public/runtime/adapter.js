@@ -1,0 +1,8 @@
+/* Local integration adapter. Original renderer: Hannah / Motion Library. */
+const stage=document.getElementById('stage');
+let card={_timers:[],_kill:[]};
+function clear(){card._timers.forEach(clearInterval);card._kill.forEach(fn=>fn());ticks.delete(card);if(card._ctx)card._ctx.revert();if(window.gsap){gsap.globalTimeline.clear();ScrollTrigger.getAll().forEach(t=>t.kill())}stage.replaceChildren();card={_timers:[],_kill:[]};}
+function status(ok,id,error){parent.postMessage({type:'motion-status',id,ok,error},'*')}
+window.addEventListener('message',e=>{if(e.source!==parent||e.data?.type!=='motion-render')return;const {item,text,color,playing}=e.data;clear();if(!playing)return;try{stage.className='stage '+item.bg+' fx'+item.id;stage.style.setProperty('--a',color);const tag=document.createElement('span');tag.className='tag';tag.textContent=item.tag;stage.append(tag);if(!FX[item.id])throw Error('找不到此效果的演示');const value=(text&&!item.fixed)?String(text).slice(0,80):item.txt;const safe=value.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));if(item.tech==='GSAP'){if(!HAS_GS)throw Error('GSAP 本地依賴未載入');card._ctx=gsap.context(()=>FX[item.id](stage,safe,card),stage)}else FX[item.id](stage,safe,card);requestAnimationFrame(()=>{if(window.ScrollTrigger)ScrollTrigger.refresh();status(true,item.id)});}catch(err){stage.replaceChildren();const p=document.createElement('p');p.className='error';p.textContent=String(err);stage.append(p);status(false,item.id,String(err));}});
+window.addEventListener('error',e=>parent.postMessage({type:'motion-error',error:e.message},'*'));
+parent.postMessage({type:'motion-ready'},'*');

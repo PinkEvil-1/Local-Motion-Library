@@ -1,0 +1,1 @@
+export interface MotionItem { id:number; zh:string; en:string; desc:string; comp:string; when:string[]; uses:string[]; tech:string; style:string; tag:string; txt:string; bg:string; prompt:string; added:string; fixed?:boolean; }

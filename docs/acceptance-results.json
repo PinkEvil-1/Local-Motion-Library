@@ -1,0 +1,57 @@
+{
+  "testedAt": "2026-11-03T03:55:35.407Z",
+  "base": "http://127.0.0.1:4173",
+  "browser": "Microsoft Edge / Playwright",
+  "results": [
+    {
+      "name": "Catalog initial count, pagination and visible source attribution",
+      "pass": true
+    },
+    {
+      "name": "English name search and independent prompt/style indexing",
+      "pass": true
+    },
+    {
+      "name": "Cross filters match independent catalog calculation",
+      "pass": true
+    },
+    {
+      "name": "Favorites persist on reload",
+      "pass": true
+    },
+    {
+      "name": "Native modal, source link, prompt, replay and Escape",
+      "pass": true
+    },
+    {
+      "name": "Custom preview text reaches runtime",
+      "pass": true
+    },
+    {
+      "name": "Prompt copy includes original prompt and source",
+      "pass": true
+    },
+    {
+      "name": "JSON export contains complete dataset",
+      "pass": true
+    },
+    {
+      "name": "Page switching and latest ordering",
+      "pass": true
+    },
+    {
+      "name": "Mobile layout fits viewport and dialog remains operable",
+      "pass": true
+    },
+    {
+      "name": "No automatic external HTTP requests",
+      "pass": true
+    },
+    {
+      "name": "No browser page errors during acceptance scenarios",
+      "pass": true
+    }
+  ],
+  "externalRequests": [],
+  "pageErrors": []
+}
